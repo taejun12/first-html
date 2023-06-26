@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+<title>생활코딩 - WEB1</title>
+<meta charset="utf-8">
+</head>
+
+
+
+<body>
+<h1>hello world - <u>06/25</u>/23 - <a href="web.html" target="_blank" title="world wide web specification">web</a>1-12</h1>
+우클릭 -> 페이지 소스 클릭 -> web page의 html 코드 확인 가능
+<p>
+    <br><strong>H1</strong> - heading 즉, 제목을 나타내는 tag
+    <br>웹 생성에 사용되는 tag의 수를 분석한 결과 대부분의 웹에서 20-25개의 tag가 사용됨
+    <br>br - 줄바꿈을 나타내는 tag -> h1처럼 쌍으로 사용할 필요가 없음
+    </p>
+
+<p>
+    p는 문단을 나누는 paragraph tag
+    </p>
+<p>
+    <strong>img - 이미지를 넣는 tag</strong> -> img src(source의 줄임말)="이미지 주소" width="이미지 크기"의 형태로 사용 -> src, width와 같은 부분을 속성(attribute)라고 하며 순서는 상관이 없음
+    <br> unsplash.com - 저작권 필요 없이 이미지를 사용할 수 있는 사이트
+    </p>
+<p>
+    tag에는 부모tag와 자식tag가 존재 - 두 관계가 바뀌기도 하지만, 항상 같이 쓰이는 tag들도 존재 -> li와 ul<br>
+    ul이 부모tag / li가 자식tag
+    <br>목차를 만들 때 사용하는 tag - li<br>
+    ul은 여러 li를 문단 나누듯이 나눌 수 있음
+    <br>ul은 각 li의 숫자를 내가 직접 적어야함 / ol은 자동으로 li에 숫자 부여 -> ul = unordered list / ol = ordered list
+    <ul>
+        <li><a href="1.html" target="_blank" title="html specification">1. HTML</a></li>
+        <LI><a href="2.css.html" target="_blank" title="css specification">2. CSS</a></LI>
+        <LI><a href="3.JavaScript.html" target="_blank" title="JavaScript specification">3. JavaScript</a></LI>
+    </ul>
+    <ol>
+        <li>생활코딩</li>
+        <li>코딩도장</li>
+    </ol>
+    </p>
+
+    <h1><u>06/26</u>/23 - web13-
+    </h1>
+
+    <p>
+        title - 파일의 제목을 나타냄
+        <br><strong>meta charset</strong> - 우리가 작성한 파일은 오른쪽 하단을 보면 UTF-8로 저장됨을 알 수 있음 -> 한글을 썼을 때 글씨가 깨지면 meta charset="UTF-8"을 입력 -> 글씨가 안 깨짐
+        <br><strong>head는 파일의 제목을 나타내는 tag</strong> -> title, meta charset과 같은 tag들은 head라는 tag로 묶어야함<br>
+        본문은 body라는 tag로 묶음
+        <br>body/head tag를 감싸는 태그가 존재 - <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification"> <strong>html</strong> </a> -> 이 문서가 html이라는 것을 나타내기 위해 html tag 위에는 !doctype html을 추가<br>
+        <strong>a - 링크를 거는 tag</strong> -> html specification이라고 치면 W3C라는 사이트가 나옴 -> 이 사이트의 주소를 복사한 다음, 내 html 파일에서 링크를 걸고 싶은 문장에 a href="주소"와 같은 식으로 작성하면 해당 사이트로 가는 링크 생성 <br>
+        a href에서 a는 anchor, h는 hypertext, ref는 reference 의미<br>
+        링크가 새 탭으로 열리게 하고 싶으면 target="_blank" 입력<br>
+        클릭하기 전에 링크가 무엇인지 알려주고 싶으면 title="툴팁으로 알려주고 싶은 내용"입력하면 툴팁 생성
+    </p>
+
+</body>
+</html>
